@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVolt S.A. | Energía Solar Inteligente y Cibersegura</title>
+    <!-- Tailwind CSS para diseño de alta fidelidad -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Iconos de Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- 1. BARRA DE NAVEGACIÓN -->
+    <nav class="bg-white/80 backdrop-blur border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <div class="bg-emerald-500 text-white p-2 rounded-xl shadow-md shadow-emerald-500/20">
+                    <i data-lucide="sun" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 block">EcoVolt S.A.</span>
+                    <span class="text-xs text-emerald-600 font-semibold tracking-wider uppercase block -mt-1">Smart Energy</span>
+                </div>
+            </div>
+            <!-- Menú Links -->
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#soluciones" class="hover:text-emerald-600 transition">Soluciones</a>
+                <a href="#tecnologia" class="hover:text-emerald-600 transition">Tecnología Segura</a>
+                <a href="#respaldo" class="hover:text-emerald-600 transition">Confianza Digital</a>
+            </div>
+            <!-- Botón de Acción -->
+            <div>
+                <a href="#contacto" class="bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition shadow-lg shadow-slate-900/10 block">
+                    Cotizar Proyecto
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. SECCIÓN HERO (PRINCIPAL) -->
+    <section class="relative bg-gradient-to-b from-slate-900 to-slate-950 text-white py-20 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            <!-- Texto Hero -->
+            <div class="space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1.5 rounded-full text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+                    <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+                    <span>Infraestructura Crítica Protegida</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-none text-white">
+                    Energía solar inteligente para tu hogar, <span class="text-emerald-400">blindada contra amenazas</span>.
+                </h1>
+                <p class="text-slate-400 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                    Llevamos la transición energética de tu industria o residencia al siguiente nivel con plataformas de monitoreo en tiempo real avanzadas y un ecosistema digital certificado bajo estándares internacionales de ciberseguridad.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                    <a href="#contacto" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-8 py-4 rounded-xl transition text-center shadow-lg shadow-emerald-500/20">
+                        Ver Planes Industriales
+                    </a>
+                    <a href="#tecnologia" class="w-full sm:w-auto border border-slate-700 hover:bg-slate-800/50 text-slate-200 font-semibold px-8 py-4 rounded-xl transition text-center flex items-center justify-center space-x-2">
+                        <span>Conocer nuestra tecnología</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Panel de Control Visual (Mockup) -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl relative">
+                <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-4">
+                    <div class="flex items-center space-x-2">
+                        <span class="w-3 h-3 rounded-full bg-red-500"></span>
+                        <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+                        <span class="w-3 h-3 rounded-full bg-green-500"></span>
+                        <span class="text-xs text-slate-500 font-mono pl-2">ecovolt-app-v4.0.ms</span>
+                    </div>
+                    <span class="text-[11px] bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20 font-mono">SSL Cifrado</span>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-slate-950 rounded-xl p-4 border border-slate-800/60">
+                        <span class="text-xs text-slate-500 uppercase tracking-wider block">Generación Planta Industrial</span>
+                        <div class="flex items-baseline space-x-2 mt-1">
+                            <span class="text-3xl font-bold text-white font-mono">428.5</span>
+                            <span class="text-sm text-emerald-400 font-semibold font-mono">kWh</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-slate-950 rounded-xl p-4 border border-slate-800/60">
+                            <span class="text-xs text-slate-500 block">Estado Red IoT</span>
+                            <span class="text-xs text-emerald-400 font-semibold flex items-center space-x-1 mt-1">
+                                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
+                                <span>Sincronizado</span>
+                            </span>
+                        </div>
+                        <div class="bg-slate-950 rounded-xl p-4 border border-slate-800/60">
+                            <span class="text-xs text-slate-500 block">Seguridad Datos</span>
+                            <span class="text-xs text-blue-400 font-semibold flex items-center space-x-1 mt-1">
+                                <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+                                <span>AES-256 Activo</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3. SECCIÓN: SOLUCIONES -->
+    <section id="soluciones" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+            <span class="text-emerald-600 text-xs font-bold uppercase tracking-widest block">Nuestros Servicios</span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">Soluciones energéticas adaptadas a cada necesidad</h2>
+            <p class="text-slate-500">Eficiencia garantizada mediante la integración de hardware de alta gama y control web.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Caja 1: Industrial -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 bg-emerald-500/10 text-emerald-600 rounded-xl flex items-center justify-center">
+                        <i data-lucide="factory" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Soluciones Fotovoltaicas Industriales</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Reduzca los costos operacionales de su planta mediante sistemas de inyección distribuida. Diseñado para altos consumos, garantizando la estabilidad de voltaje requerida por maquinarias pesadas y reportes consolidados directos para la Superintendencia.
+                    </p>
+                </div>
+                <ul class="mt-6 space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-4">
+                    <li class="flex items-center space-x-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> <span>Monitoreo dedicado de telemetría IoT corporativa.</span></li>
+                    <li class="flex items-center space-x-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> <span>Garantía de continuidad operativa superior.</span></li>
+                </ul>
+            </div>
+
+            <!-- Caja 2: Residencial -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 bg-blue-500/10 text-blue-600 rounded-xl flex items-center justify-center">
+                        <i data-lucide="home" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Energía Inteligente Residencial</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Tome el control total del consumo eléctrico de su hogar. A través de nuestra App Móvil, visualice su ahorro diario, configure alertas automáticas y gestione sus facturas mensuales de manera simple, rápida y totalmente digitalizada.
+                    </p>
+                </div>
+                <ul class="mt-6 space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-4">
+                    <li class="flex items-center space-x-2"><i data-lucide="check" class="w-4 h-4 text-blue-500"></i> <span>Acceso instantáneo desde plataformas móviles iOS/Android.</span></li>
+                    <li class="flex items-center space-x-2"><i data-lucide="check" class="w-4 h-4 text-blue-500"></i> <span>Pasarela de pagos encriptada integrada.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SECCIÓN: CIBERSEGURIDAD (VALOR DIFERENCIAL) -->
+    <section id="tecnologia" class="bg-slate-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+                
+                <!-- Encabezado de Sección -->
+                <div class="space-y-4 lg:col-span-1 text-center lg:text-left">
+                    <span class="text-emerald-400 text-xs font-bold uppercase tracking-widest block">Confianza Digital</span>
+                    <h2 class="text-3xl font-bold tracking-tight text-white">¿Por qué la seguridad importa en la energía solar?</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        A diferencia de competidores cuyos sistemas sufren incidentes que exponen los datos de sus usuarios, en EcoVolt S.A. la seguridad de la información es un pilar estratégico incuestionable.
+                    </p>
+                    <div class="pt-2">
+                        <span class="inline-flex items-center space-x-2 bg-slate-950 px-4 py-2 rounded-xl border border-slate-800 text-xs text-slate-400 font-mono">
+                            <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+                            <span>Alineados a ISO/IEC 27001</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Bloques de Control -->
+                <div class="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <!-- Control 1 -->
+                    <div class="p-6 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
+                        <div class="text-emerald-400"><i data-lucide="lock" class="w-5 h-5"></i></div>
+                        <h4 class="text-base font-bold text-white">Cifrado Bancario de Transacciones</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Garantizamos el cifrado del 100% de los datos en tránsito y en reposo para todas las operaciones financieras realizadas en la App Móvil, protegiendo tus medios de pago bajo estándares estrictos.
+                        </p>
+                    </div>
+                    <!-- Control 2 -->
+                    <div class="p-6 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
+                        <div class="text-emerald-400"><i data-lucide="git-branch" class="w-5 h-5"></i></div>
+                        <h4 class="text-base font-bold text-white">Aislamiento Perimetral TI/OT</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Nuestras redes corporativas y bases de datos en la nube (AWS) están separadas mediante compuertas lógicas estrictas de los inversores físicos en terreno, evitando vulnerabilidades cruzadas.
+                        </p>
+                    </div>
+                    <!-- Control 3 -->
+                    <div class="p-6 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
+                        <div class="text-emerald-400"><i data-lucide="server" class="w-5 h-5"></i></div>
+                        <h4 class="text-base font-bold text-white">Alta Disponibilidad (99.95%)</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Diseñamos una arquitectura en la nube con redundancia automática. Tus paneles siguen generando energía y tus aplicaciones de monitoreo web permanecen en línea pase lo que pase.
+                        </p>
+                    </div>
+                    <!-- Control 4 -->
+                    <div class="p-6 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
+                        <div class="text-emerald-400"><i data-lucide="eye-off" class="w-5 h-5"></i></div>
+                        <h4 class="text-base font-bold text-white">Privacidad Absoluta de Hábitos</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Tus patrones de consumo energético y horarios operativos industriales se procesan de forma anónima y segura, cumpliendo rigurosamente con la Ley de Protección de Datos Personales.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SECCIÓN: FORMULARIO DE CONTACTO / COTIZACIÓN -->
+    <section id="contacto" class="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex-1 w-full">
+        <div class="bg-white border border-slate-200 rounded-3xl p-8 sm:p-12 shadow-xl border-t-4 border-t-emerald-500">
+            <div class="text-center space-y-2 mb-8">
+                <h3 class="text-2xl font-bold text-slate-900 tracking-tight">Comienza tu transición energética segura</h3>
+                <p class="text-sm text-slate-500">Déjanos tus datos y un ingeniero especialista se pondrá en contacto para diseñar un plan a tu medida.</p>
+            </div>
+            
+            <form class="space-y-6" onsubmit="event.preventDefault(); alert('Simulación: Solicitud recibida de manera segura.');">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Nombre Completo</label>
+                        <input type="text" placeholder="Ej. Juan Pérez" required class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 focus:bg-white transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Correo Corporativo / Personal</label>
+                        <input type="email" placeholder="juan@empresa.cl" required class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 focus:bg-white transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Tipo de Proyecto</label>
+                    <select class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 focus:bg-white transition text-slate-600">
+                        <option>Planta Solar Industrial / Corporativa</option>
+                        <option>Sistema Solar Residencial Inteligente</option>
+                        <option>Consultoría de Eficiencia Energética</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Mensaje / Requerimientos Específicos</label>
+                    <textarea rows="4" placeholder="Describa brevemente la superficie disponible o el consumo estimado de su organización..." class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 focus:bg-white transition"></textarea>
+                </div>
+                
+                <!-- Nota de protección de datos -->
+                <div class="flex items-start space-x-2 text-[11px] text-slate-400 bg-slate-50 p-3 rounded-xl border border-slate-200">
+                    <i data-lucide="info" class="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5"></i>
+                    <span><strong>Nota de Privacidad:</strong> Al enviar este formulario, tus datos de contacto serán encriptados en tránsito y procesados bajo estrictas políticas de resguardo, en total acuerdo con la ley de protección de datos vigentes. No compartimos información con terceros.</span>
+                </div>
+
+                <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-slate-900/10 tracking-wide text-sm">
+                    Enviar Solicitud de Cotización
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 6. PIE DE PÁGINA COMERCIAL -->
+    <footer class="bg-slate-950 text-slate-500 py-8 border-t border-slate-900 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center space-x-2">
+                <span class="font-bold text-slate-300">EcoVolt S.A.</span>
+                <span>— Sostenibilidad e Innovación Tecnológica Confiable.</span>
+            </div>
+            <div class="flex items-center space-x-6">
+                <span class="flex items-center space-x-1"><i data-lucide="shield" class="w-3.5 h-3.5 text-emerald-500"></i> <span>ISO 27001 Ready</span></span>
+                <span>&copy; 2026 EcoVolt S.A. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Inicializar iconos de Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
